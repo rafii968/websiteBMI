@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c100e8;
+    color: #3d0548;
+}
+
+header {
+    background-color: #28053b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #662491;
+}
+
+nav ul li a:hover {
+    background-color: #501a66;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+    text-align: center;
+    color: #a568cd;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #b3249e;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #bd33a8;
+}
+
+.result {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.result img {
+    max-width: 300px;
+    margin: 20px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #501a66;
+    color: rgb(39, 10, 48);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.profile img {
+    width: 200px; /* Sesuaikan ukuran sesuai keinginan */
+    height: 200px;
+    border-radius: 50%; /* Membuat gambar menjadi bulat */
+    object-fit: cover;  /* Memastikan gambar ter-crop dan tidak terdistorsi */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Menambahkan bayangan untuk efek menyatu */
+    border: 5px solid white; /* Garis putih agar terkesan menyatu */
+}
+.profile {
+    text-align: center;
+    padding: 30px;
+    background: linear-gradient(135deg, #71247e, #9a22db);
+    border-radius: 10px;
+}
