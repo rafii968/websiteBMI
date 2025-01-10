@@ -114,7 +114,6 @@ footer {
     background: linear-gradient(135deg, #71247e, #9a22db);
     border-radius: 10px;
 }
-}
 @media (max-width: 768px) {
     .container {
         max-width: 90%;
