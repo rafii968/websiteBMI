@@ -27,7 +27,7 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 12px;
     padding: 10px 20px;
     border-radius: 5px;
     background-color: #662491;
@@ -113,4 +113,43 @@ footer {
     padding: 30px;
     background: linear-gradient(135deg, #71247e, #9a22db);
     border-radius: 10px;
+}
+}
+@media (max-width: 768px) {
+    .container {
+        max-width: 90%;
+        padding: 15px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+        display: block;
+        padding: 10px;
+    }
+
+    .profile img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 15px;
+        font-size: 18px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .result img {
+        max-width: 100%;
+    }
 }
